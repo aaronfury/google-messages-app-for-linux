@@ -5,22 +5,18 @@ Welcome to Google Messages Desktop! This is an unofficial Electron-based wrapper
 This version is forked from [markeglseder](https://github.com/markeglseder/google-messages-app)'s Mac-optimized version and is (very) lightly modified to remove a few things and build for Linux.
 
 ## Features
-
 - Native desktop app experience for Google Messages
 - Adapts to your system's light/dark mode
 - Remembers window position and size
 - Desktop notifications with smart handling
 - Global shortcut (Cmd+Shift+M) to quickly show/hide the app
 - Tray icon for easy access and app management
-- Smooth scrolling and optimized performance
-- Looks great on Retina displays (especially on M1 Macs!)
-- Fast startup and low resource usage
 
 ## Getting Started
 
-1. Download the latest release from the [Releases](https://github.com/yourusername/google-messages-desktop/releases) page.
-2. Open the .dmg file and drag the app to your Applications folder.
-3. Launch it like any other app!
+1. Download the latest release from the [Releases](https://github.com/aaronfury/google-messages-app-for-linux/releases) page.
+2. Download the AppImage.
+3. Do the necessary AppImage things to get it to run. Or use Gear Lever or something to manage it.
 
 ## Development
 
@@ -41,6 +37,10 @@ This will create a distributable in the `dist` folder.
 ## Contributing & Issues
 I hate to sound curmudgeonly, but this project was largely self-serving. It's also pretty dang basic. Contributions and bug reports are appreciated, but may not be acknowledged or acted upon.
 
+If you want to help package this in RPM and DEB, that would be appreciated. I can't figure out RPM, and didn't bother with DEB.
+
+I love you all.
+
 ## License
 
 The original project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details.
@@ -58,4 +58,3 @@ Also also also, the more I look over @markeglseder's profile (and the original R
 - ... Google Gemini for answering some questions I had 🫢
 
 Don't you judge me.
-

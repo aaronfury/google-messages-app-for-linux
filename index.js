@@ -10,9 +10,9 @@ const {
 	nativeTheme,
 } = require("electron");
 const path = require("path");
-const Store = require("electron-store");
+const { default: Store } = require('electron-store');
 
-
+Menu.setApplicationMenu(null);
 
 const store = new Store();
 let tray, mainWindow;
@@ -185,6 +185,6 @@ app.setAboutPanelOptions({
 	applicationName: appName,
 	applicationVersion: app.getVersion(),
 	copyright: "No copyright. This is free under CC0.",
-	credits: "Created by markeglseder, tweaked by aaronfury",
+	credits: "Created by markeglseder (ostensibly), tweaked by aaronfury",
 	iconPath: iconPath,
 });
