@@ -1,26 +1,28 @@
-# Google Messages Desktop
+# Google Messages Desktop *for Linux*
 
-👋 Welcome to Google Messages Desktop! This is an unofficial Electron-based wrapper for Google Messages, bringing the web app to your desktop with some extra goodies. It's optimized for M1 Macs, but we're open to expanding support - just open an issue if you need it for a different system!
+Welcome to Google Messages Desktop! This is an unofficial Electron-based wrapper for Google Messages, bringing the web app to your desktop with some extra goodies.
 
-## ✨ Features
+This version is forked from [markeglseder](https://github.com/markeglseder/google-messages-app)'s Mac-optimized version and is (very) lightly modified to remove a few things and build for Linux.
 
-- 🖥️ Native desktop app experience for Google Messages
-- 🎨 Adapts to your system's light/dark mode
-- 💾 Remembers window position and size
-- 🔔 Desktop notifications with smart handling
-- ⌨️ Global shortcut (Cmd+Shift+M) to quickly show/hide the app
-- 🖱️ Tray icon for easy access and app management
-- 🔄 Smooth scrolling and optimized performance
-- 🍎 Looks great on Retina displays (especially on M1 Macs!)
-- 🚀 Fast startup and low resource usage
+## Features
 
-## 🚀 Getting Started
+- Native desktop app experience for Google Messages
+- Adapts to your system's light/dark mode
+- Remembers window position and size
+- Desktop notifications with smart handling
+- Global shortcut (Cmd+Shift+M) to quickly show/hide the app
+- Tray icon for easy access and app management
+- Smooth scrolling and optimized performance
+- Looks great on Retina displays (especially on M1 Macs!)
+- Fast startup and low resource usage
+
+## Getting Started
 
 1. Download the latest release from the [Releases](https://github.com/yourusername/google-messages-desktop/releases) page.
 2. Open the .dmg file and drag the app to your Applications folder.
 3. Launch it like any other app!
 
-## 💻 Development
+## Development
 
 Feeling techy? Here's how to run it from source:
 
@@ -36,24 +38,24 @@ npm run build
 
 This will create a distributable in the `dist` folder.
 
-## 🤝 Contributing
+## Contributing & Issues
+I hate to sound curmudgeonly, but this project was largely self-serving. It's also pretty dang basic. Contributions and bug reports are appreciated, but may not be acknowledged or acted upon.
 
-We love contributions! If you have any ideas, just open an issue and tell us what you think.
+## License
 
-If you'd like to contribute, please fork the repository and make changes as you'd like. Pull requests are warmly welcome.
+The original project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details.
 
-## 🐛 Issues and Feature Requests
+I personally prefer CC0 because it's as close to "do what you will" as you can get, but I'm not sure how that applies to derivative works. And I don't care enough to learn. So, I make no claims about the licensing of this project. But do what you will.
 
-If you encounter any issues or have ideas for improvements, please open an issue on GitHub. We're especially interested in making this app work well for all Mac users, so if you're not on an M1 Mac and something's not working quite right, let us know!
+Also also, the original README in @markeglseder's project linked to a nonexistent LICENSE.md file. Since I have to include that license text to be compliant with it, I've included the standard MIT license text, but with no copyright info because the original author didn't include it.
 
-## 📜 License
+Also also also, the more I look over @markeglseder's profile (and the original README for this project), the more I realize it may have been "vibe-coded AI slop," as the kids say. Not throwing shade, just saying. Maybe it was just the README file that was AI-generated.
 
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details.
-
-## 💖 Acknowledgements
-
+## Acknowledgements
 - Google for the awesome Messages web app
 - Electron for making cross-platform desktop apps easy
-- You, for using or contributing to this project!
+- @markeglseder, and possibly an AI and therefore, every open-source developer whose work was ripped off by the goddamned AI.
+- ... Google Gemini for answering some questions I had 🫢
 
-Enjoy your new desktop Google Messages experience! 🎉
+Don't you judge me.
+

@@ -1,14 +1,14 @@
 {
-	"name": "google-messages-desktop",
+	"name": "google-messages-desktop-for-linux",
 	"version": "1.0.0",
 	"description": "Electron wrapper for Google Messages",
 	"main": "index.js",
 	"scripts": {
 		"start": "electron .",
 		"pack": "electron-builder --dir",
-		"dist": "electron-builder",
+		"dist": "electron-builder --linux",
 		"postinstall": "electron-builder install-app-deps",
-		"build": "electron-builder build --mac",
+		"build": "electron-builder build --save-dev",
 		"deploy": "electron-builder build --mac --publish always"
 	},
 	"author": "",
@@ -21,12 +21,21 @@
 		"electron-store": "^8.1.0"
 	},
 	"build": {
-		"appId": "com.example.google-messages-desktop",
-		"productName": "Google Messages",
-		"mac": {
-			"category": "public.app-category.social-networking",
-			"target": ["dmg", "zip"],
-			"icon": "icon.icns"
+		"appId": "com.furiousstudios.google-messages-desktop-for-linux",
+		"productName": "Google Messages for Linux",
+		"linux": {
+			"target": ["AppImage", "deb", "rpm"],
+			"category": "Internet",
+			"icon": "icon.png",
+			"desktop": {
+				"Name": "Google Messages for Linux",
+				"Comment": "Electron wrapper for Google Messages",
+				"Exec": "google-messages-desktop-for-linux",
+				"Icon": "google-messages-desktop-for-linux",
+				"Terminal": "false",
+				"Type": "Application"
+			},
+			"maintainer": "Aaron Fury <aaroneff@pm.me>"
 		}
 	}
 }
